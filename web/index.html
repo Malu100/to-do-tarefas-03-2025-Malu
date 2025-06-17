@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gerenciamento de Tarefas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Quadro de Tarefas - Kanban</h1>
+    <nav>
+      <a href="cadastro_usuario.html">Cadastrar Usuário</a>
+      <a href="cadastro_tarefa.html">Cadastrar Tarefa</a>
+    </nav>
+  </header>
+
+  <main class="kanban">
+    <section class="coluna" id="a-fazer">
+      <h2>A Fazer</h2>
+      <div class="tarefas" id="tarefas-afazer"></div>
+    </section>
+    <section class="coluna" id="fazendo">
+      <h2>Fazendo</h2>
+      <div class="tarefas" id="tarefas-fazendo"></div>
+    </section>
+    <section class="coluna" id="pronto">
+      <h2>Pronto</h2>
+      <div class="tarefas" id="tarefas-pronto"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

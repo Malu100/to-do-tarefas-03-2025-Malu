@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #1f3c88;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+label, input, textarea, select, button {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+button {
+  background: #1f3c88;
+  color: #fff;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.kanban {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.coluna {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 30%;
+  min-width: 250px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  margin-bottom: 2rem;
+}
+
+.tarefas {
+  min-height: 100px;
+}
+
+.tarefa {
+  background: #eee;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+}
